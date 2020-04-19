@@ -13,7 +13,7 @@ CREATE TABLE products (
     PRIMARY KEY (item_id)
     
     );
-Select * From products;
+
     
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('Listerine Mouthwash', 'Beauty and Personal', 5.24, 500),
@@ -27,8 +27,7 @@ VALUES ('Listerine Mouthwash', 'Beauty and Personal', 5.24, 500),
 ('TV', 'Electronics', 250.00, 100),
 ('Dog Food', 'Pet Supplies', 30.00, 500);
 
-
-
+SELECT * FROM products;
 
 
 
